@@ -1,0 +1,148 @@
+section {
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 0rem; }
+  section .router {
+    width: 100%;
+    height: 1.70667rem;
+    background-color: #fff;
+    border-bottom: 1px solid #f3f3f3; }
+    section .router ul {
+      width: 100%;
+      height: 100%;
+      list-style: none; }
+      section .router ul li {
+        float: left;
+        text-align: center;
+        width: 33.3%;
+        line-height: 1.70667rem; }
+        section .router ul li a {
+          font-size: 0.59733rem;
+          color: #4d555d;
+          line-height: 0.59733rem;
+          text-decoration: none; }
+      section .router ul li:hover a {
+        color: #f01414; }
+  section .content {
+    clear: both;
+    width: 100%;
+    box-sizing: border-box; }
+    section .content .left-content {
+      width: 3.41333rem;
+      background-color: #f3f5f7;
+      float: left;
+      height: 100%; }
+      section .content .left-content ul {
+        width: 3.41333rem;
+        list-style: none;
+        margin-bottom: 0.85333rem; }
+        section .content .left-content ul li {
+          width: 3.41333rem;
+          height: 2.304rem; }
+          section .content .left-content ul li div {
+            margin: 0 0.512rem;
+            height: 2.13333rem;
+            border-bottom: 1px solid gainsboro;
+            line-height: 2.13333rem; }
+            section .content .left-content ul li div img {
+              width: 0.512rem;
+              height: 0.512rem; }
+            section .content .left-content ul li div a {
+              font-size: 0.512rem;
+              font-weight: 200;
+              text-decoration: none;
+              color: #07111b; }
+        section .content .left-content ul li:hover {
+          background-color: #fff; }
+          section .content .left-content ul li:hover p a {
+            color: #07111b;
+            font-weight: bold; }
+        section .content .left-content ul li:first-child div {
+          border: none; }
+        section .content .left-content ul li:nth-child(2) div {
+          line-height: 0;
+          border: none;
+          padding-top: 0.512rem; }
+          section .content .left-content ul li:nth-child(2) div a {
+            line-height: 0.59733rem; }
+    section .content .right-content {
+      float: left;
+      box-sizing: border-box;
+      width: 11.56267rem;
+      background-color: #fff;
+      height: 100%; }
+      section .content .right-content .food-content {
+        width: 100%; }
+        section .content .right-content .food-content .kinds {
+          width: 100%;
+          height: 1.17333rem;
+          font-size: 0.512rem;
+          color: #93999f;
+          background-color: #f3f5f7;
+          border-left: 0.10667rem solid #d9dde1;
+          line-height: 1.17333rem; }
+          section .content .right-content .food-content .kinds span {
+            margin-left: 0.53333rem; }
+        section .content .right-content .food-content .special {
+          width: 100%;
+          height: 4.05333rem;
+          border-bottom: 1px solid gainsboro; }
+        section .content .right-content .food-content .kinds-details {
+          width: 100%;
+          height: 4.69333rem; }
+        section .content .right-content .food-content .details-img {
+          padding: 0.768rem 0.42667rem 0.768rem 0.768rem;
+          width: 2.45333rem;
+          height: 2.45333rem;
+          float: left; }
+          section .content .right-content .food-content .details-img img {
+            width: 100%;
+            height: 100%; }
+        section .content .right-content .food-content .details-infor {
+          width: 7.14667rem;
+          padding: 0.768rem 0 0 0;
+          float: left; }
+          section .content .right-content .food-content .details-infor p {
+            margin-bottom: 0.34133rem; }
+          section .content .right-content .food-content .details-infor .name {
+            font-size: 0.59733rem;
+            color: #07111b; }
+          section .content .right-content .food-content .details-infor .species {
+            font-size: 0.42667rem;
+            color: #93999f; }
+          section .content .right-content .food-content .details-infor .sell {
+            font-size: 0.42667rem;
+            color: #93999f; }
+          section .content .right-content .food-content .details-infor .price p {
+            float: left;
+            font-size: 0.42667rem;
+            color: #f01414;
+            font-weight: bold; }
+            section .content .right-content .food-content .details-infor .price p span {
+              font-size: 0.512rem; }
+            section .content .right-content .food-content .details-infor .price p del {
+              margin-left: 0.34133rem;
+              color: #93999f; }
+          section .content .right-content .food-content .details-infor .price .buy {
+            float: right; }
+            section .content .right-content .food-content .details-infor .price .buy div {
+              float: left; }
+            section .content .right-content .food-content .details-infor .price .buy input {
+              outline: none;
+              float: left;
+              border: none;
+              text-align: center; }
+            section .content .right-content .food-content .details-infor .price .buy .del, section .content .right-content .food-content .details-infor .price .buy .add {
+              width: 0.74667rem;
+              height: 0.74667rem;
+              border-radius: 50%;
+              background-color: #fff;
+              border: 0.10667rem solid #00a0dc;
+              color: #00a0dc;
+              font-size: 0.74667rem;
+              text-align: center; }
+            section .content .right-content .food-content .details-infor .price .buy .number {
+              width: 1.024rem;
+              height: 0.85333rem; }
+
+/*# sourceMappingURL=style2.css.map */
