@@ -2,8 +2,16 @@
   @return $px /46.875 + rem;
 }
 header{
+  height: rem(350);
   width: 100%;
-  height:rem(215);
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: #fff;
+}
+#logo{
+
+  width: 100%;
   background: url("../../components/header/1.jpg");
   -webkit-background-size:100% 100%;
   background-size:100% 100%;
@@ -19,7 +27,6 @@ header{
     -moz-filter: blur(10px);
     -o-filter: blur(10px);
     -ms-filter: blur(10px);
-
   }
   .header-logo{
     position: absolute;
@@ -108,7 +115,6 @@ header{
   font-size:rem(20);
   color: rgb(255,255,255);
   font-weight: 200;
-
   line-height: rem(56);
   img{
     margin-left:rem(24);
@@ -128,4 +134,31 @@ header{
 
   }
 }
-
+.header-router {
+  width: 100%;
+  height: rem(80);
+  background-color: #fff;
+  border-bottom: rem(2) solid #e6e7e8;
+  ul {
+    width: 100%;
+    height: rem(80);
+    list-style: none;
+    li {
+      float: left;
+      text-align: center;
+      width: 33.3%;
+      line-height: rem(80);
+      a{
+        font-size: rem(28);
+        color: rgb(77, 85, 93);
+        line-height: rem(28);
+        text-decoration: none;
+      }
+    }
+    li:hover {
+      a {
+        color: rgb(240, 20, 20);
+      }
+    }
+  }
+}

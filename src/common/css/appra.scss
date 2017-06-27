@@ -1,0 +1,239 @@
+@function rem($px){
+  @return $px /46.875 + rem;
+};
+.appraise{
+  font-size:rem(20);
+  width: 100%;
+  height:rem(210);
+  background-color: #fff;
+  .appraise-score{
+    width: 33.3%;
+    margin:rem(36) 0;
+    float: left;
+    border-right: rem(1) solid gainsboro;
+    p{
+      text-align: center;
+    }
+    p:first-child{
+      margin-bottom:rem(12);
+      font-size:rem(48);
+      color: rgb(225,153,0);
+      line-height: rem(56);
+    }
+    p:nth-child(2){
+      margin-bottom:rem(16);
+      font-size:rem(24);
+      color: rgb(7,17,27);
+      line-height: rem(24);
+    }
+    p:last-child{
+      margin-bottom:rem(12);
+      font-size:rem(20);
+      color: rgb(7,17,27);
+      line-height: rem(20);
+    }
+  }
+  .appraise-serve{
+    float: left;
+    width: 66.4%;
+    background-color: #fff;
+    padding: rem(36) 0 0 0;
+    ul{
+      margin: 0  0 0 rem(48);
+      list-style: none;
+      li{
+        margin-bottom:rem(8);
+        .start-left{
+          margin-right:rem(12);
+          font-size:rem(24);
+          color: rgb(7,17,27);
+          line-height: rem(36);
+        }
+        .start{
+          width:rem(36);
+          height: rem(36);
+        }
+        .start-right{
+          margin-left:rem(12);
+          font-size:rem(24);
+          color: #ff9900;
+          line-height: rem(36);
+        }
+        .time{
+          font-size:rem(24);
+          color: rgb(147,153,159);
+          line-height: rem(36);
+        }
+      }
+      li:last-child{
+        margin-bottom:0;
+      }
+    }
+  }
+}
+.border{
+  width: 100%;
+  height: rem(34);
+  border-top: 1px solid gainsboro;
+  border-bottom: 1px solid #e6e7e8;
+  background-color: #f3f5f7;
+}
+.appraise-kinds{
+  width: 100%;
+  background-color: #fff;
+  border-bottom: rem(1) solid gainsboro;
+  .appraise-satisfy{
+    height: rem(135);
+    background-color:#ffffff;
+    border-bottom: rem(1) solid gainsboro;
+    margin:0 rem(36) 0 rem(36);
+    ul{
+      text-align: center;
+      height: 100%;
+      list-style: none;
+      li{
+        margin-top:rem(36);
+        float: left;
+        width:rem(120);
+        height: rem(65);
+        margin-right: rem(15);
+        text-align: center;
+        background-color:red;
+        border-radius: rem(4);
+        font-size:rem(24);
+        line-height: rem(65);
+        span{
+          font-size:rem(14);
+        }
+      }
+      li:first-child{
+        background-color: #00a0dc;
+        color: white;
+      }
+      li:nth-child(2){
+        background-color: #ccecf8;
+        color: #4d555d;
+
+      }
+      li:last-child{
+        background-color: #e9ebec;
+        color: #4d555d;
+
+      }
+    }
+  }
+  .appraise-toggle {
+    height: rem(95);
+    line-height: rem(95);
+    .sel {
+      width: rem(40);
+      height: rem(40);
+      float: left;
+      margin: rem(25) rem(15) rem(25) rem(36);
+      input {
+        display: none;
+      }
+      input:checked + label {
+        background-color: pink;
+      }
+      label {
+        display: block;
+        width:  rem(40);
+        height:  rem(40);
+        border: 1px solid gainsboro;
+        border-radius: 50%;
+        //line-height: 90/ @baseRem;
+      }
+    }
+    span{
+      font-size:rem(24);
+      color: #93999f;
+    }
+
+  }
+
+
+}
+.appraise-person{
+  background-color: #fff;
+  .person{
+    border-bottom: 1px solid gainsboro;
+
+    height: rem(224);
+    margin: rem(36) ;
+    clear: both;
+  }
+  .person-portrait{
+    width:rem(56);
+    height:rem(56);
+    border-radius: 50%;
+    background-color: pink;
+    float: left;
+  }
+  .username{
+    float: left;
+    margin-left:rem(24);
+    width: rem(540);
+    font-size:rem(20);
+    ul{
+      list-style: none;
+      li:first-child{
+        font-size:rem(20);
+        color: rgb(7,17,27);
+        line-height: rem(24);
+        margin-bottom:rem(8);
+        span{
+          float: right;
+          font-weight: 200;
+          color: rgb(147,153,159);
+        }
+      }
+      li:nth-child(2){
+        margin-bottom:rem(12);
+        img{
+          width:rem(20);
+          height:rem(20);
+        }
+        span{
+          margin-left: rem(12);
+          font-size:rem(20);
+          font-weight: 200;
+          color: rgb(147,153,159);
+          line-height: rem(24);
+        }
+      }
+      li:nth-child(3){
+        margin-bottom: rem(16);
+        font-size:rem(24);
+        color: rgb(7,17,27);
+        line-height: rem(36);
+      }
+      li:last-child{
+        i{
+          float: left;
+          margin-right:rem(16);
+          font-size:rem(24);
+          color: rgb(0,160,220);
+          line-height: rem(32);
+        }
+       span{
+         margin-right:rem(16);
+
+         float: left;
+         display: block;
+         text-overflow: ellipsis;
+         overflow: hidden;
+         width:rem(125);
+         height:rem(30);
+         border: 1px solid gainsboro;
+         border-radius: rem(2);
+         background-color: rgb(255,255,255);
+         font-size:rem(18);
+         color: rgb(147,153,159);
+         line-height: rem(32);
+
+       }
+      }
+    }
+  }
+}

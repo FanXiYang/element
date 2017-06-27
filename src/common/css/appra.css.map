@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGA,SAAS;EACP,KAAK,EAAE,IAAI;EACX,MAAM,EAAC,UAAQ;EACf,gBAAgB,EAAE,IAAI;EACtB,yBAAe;IACb,KAAK,EAAE,UAAQ;IACf,MAAM,EAAE,IAAI;IACZ,gBAAgB,EAAE,IAAI;IACtB,KAAK,EAAE,IAAI;EAEb,yBAAe;IACb,MAAM,EAAE,IAAI;IACZ,gBAAgB,EAAE,WAAW",
+"sources": ["appra.scss"],
+"names": [],
+"file": "appra.css"
+}

@@ -2,12 +2,12 @@
   @return $px /46.875 + rem;
 };
 footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
   width:100%;
   height:rem(96);
   background: #141d27;
-  position: absolute;
-  //bottom:rem(-65);
-  left:0;
   .footer-circle{
     width:rem(116);
     height:rem(116);
@@ -30,10 +30,8 @@ footer{
     color:rgba(255,255,255,0.4);
     font-weight: 700;
     line-height: rem(96);
-    //border-right:1px solid rgba(255,255,255,0.1);
     margin-top: rem(-100);
     margin-left: rem(180);
-
   }
   .else{
     font-size: rem(32);

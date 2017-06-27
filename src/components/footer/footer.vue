@@ -3,7 +3,7 @@
     <footer>
       <div class="footer-circle">
         <div class="footer-small-circle">
-
+        <span class="fa fa-shoppingcart"></span>
         </div>
 
       </div>

@@ -1,0 +1,186 @@
+.appraise {
+  font-size: 0.42667rem;
+  width: 100%;
+  height: 4.48rem;
+  background-color: #fff; }
+  .appraise .appraise-score {
+    width: 33.3%;
+    margin: 0.768rem 0;
+    float: left;
+    border-right: 0.02133rem solid gainsboro; }
+    .appraise .appraise-score p {
+      text-align: center; }
+    .appraise .appraise-score p:first-child {
+      margin-bottom: 0.256rem;
+      font-size: 1.024rem;
+      color: #e19900;
+      line-height: 1.19467rem; }
+    .appraise .appraise-score p:nth-child(2) {
+      margin-bottom: 0.34133rem;
+      font-size: 0.512rem;
+      color: #07111b;
+      line-height: 0.512rem; }
+    .appraise .appraise-score p:last-child {
+      margin-bottom: 0.256rem;
+      font-size: 0.42667rem;
+      color: #07111b;
+      line-height: 0.42667rem; }
+  .appraise .appraise-serve {
+    float: left;
+    width: 66.4%;
+    background-color: #fff;
+    padding: 0.768rem 0 0 0; }
+    .appraise .appraise-serve ul {
+      margin: 0 0 0 1.024rem;
+      list-style: none; }
+      .appraise .appraise-serve ul li {
+        margin-bottom: 0.17067rem; }
+        .appraise .appraise-serve ul li .start-left {
+          margin-right: 0.256rem;
+          font-size: 0.512rem;
+          color: #07111b;
+          line-height: 0.768rem; }
+        .appraise .appraise-serve ul li .start {
+          width: 0.768rem;
+          height: 0.768rem; }
+        .appraise .appraise-serve ul li .start-right {
+          margin-left: 0.256rem;
+          font-size: 0.512rem;
+          color: #ff9900;
+          line-height: 0.768rem; }
+        .appraise .appraise-serve ul li .time {
+          font-size: 0.512rem;
+          color: #93999f;
+          line-height: 0.768rem; }
+      .appraise .appraise-serve ul li:last-child {
+        margin-bottom: 0; }
+
+.border {
+  width: 100%;
+  height: 0.72533rem;
+  border-top: 1px solid gainsboro;
+  border-bottom: 1px solid #e6e7e8;
+  background-color: #f3f5f7; }
+
+.appraise-kinds {
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 0.02133rem solid gainsboro; }
+  .appraise-kinds .appraise-satisfy {
+    height: 2.88rem;
+    background-color: #ffffff;
+    border-bottom: 0.02133rem solid gainsboro;
+    margin: 0 0.768rem 0 0.768rem; }
+    .appraise-kinds .appraise-satisfy ul {
+      text-align: center;
+      height: 100%;
+      list-style: none; }
+      .appraise-kinds .appraise-satisfy ul li {
+        margin-top: 0.768rem;
+        float: left;
+        width: 2.56rem;
+        height: 1.38667rem;
+        margin-right: 0.32rem;
+        text-align: center;
+        background-color: red;
+        border-radius: 0.08533rem;
+        font-size: 0.512rem;
+        line-height: 1.38667rem; }
+        .appraise-kinds .appraise-satisfy ul li span {
+          font-size: 0.29867rem; }
+      .appraise-kinds .appraise-satisfy ul li:first-child {
+        background-color: #00a0dc;
+        color: white; }
+      .appraise-kinds .appraise-satisfy ul li:nth-child(2) {
+        background-color: #ccecf8;
+        color: #4d555d; }
+      .appraise-kinds .appraise-satisfy ul li:last-child {
+        background-color: #e9ebec;
+        color: #4d555d; }
+  .appraise-kinds .appraise-toggle {
+    height: 2.02667rem;
+    line-height: 2.02667rem; }
+    .appraise-kinds .appraise-toggle .sel {
+      width: 0.85333rem;
+      height: 0.85333rem;
+      float: left;
+      margin: 0.53333rem 0.32rem 0.53333rem 0.768rem; }
+      .appraise-kinds .appraise-toggle .sel input {
+        display: none; }
+      .appraise-kinds .appraise-toggle .sel input:checked + label {
+        background-color: pink; }
+      .appraise-kinds .appraise-toggle .sel label {
+        display: block;
+        width: 0.85333rem;
+        height: 0.85333rem;
+        border: 1px solid gainsboro;
+        border-radius: 50%; }
+    .appraise-kinds .appraise-toggle span {
+      font-size: 0.512rem;
+      color: #93999f; }
+
+.appraise-person {
+  background-color: #fff; }
+  .appraise-person .person {
+    border-bottom: 1px solid gainsboro;
+    height: 4.77867rem;
+    margin: 0.768rem;
+    clear: both; }
+  .appraise-person .person-portrait {
+    width: 1.19467rem;
+    height: 1.19467rem;
+    border-radius: 50%;
+    background-color: pink;
+    float: left; }
+  .appraise-person .username {
+    float: left;
+    margin-left: 0.512rem;
+    width: 11.52rem;
+    font-size: 0.42667rem; }
+    .appraise-person .username ul {
+      list-style: none; }
+      .appraise-person .username ul li:first-child {
+        font-size: 0.42667rem;
+        color: #07111b;
+        line-height: 0.512rem;
+        margin-bottom: 0.17067rem; }
+        .appraise-person .username ul li:first-child span {
+          float: right;
+          font-weight: 200;
+          color: #93999f; }
+      .appraise-person .username ul li:nth-child(2) {
+        margin-bottom: 0.256rem; }
+        .appraise-person .username ul li:nth-child(2) img {
+          width: 0.42667rem;
+          height: 0.42667rem; }
+        .appraise-person .username ul li:nth-child(2) span {
+          margin-left: 0.256rem;
+          font-size: 0.42667rem;
+          font-weight: 200;
+          color: #93999f;
+          line-height: 0.512rem; }
+      .appraise-person .username ul li:nth-child(3) {
+        margin-bottom: 0.34133rem;
+        font-size: 0.512rem;
+        color: #07111b;
+        line-height: 0.768rem; }
+      .appraise-person .username ul li:last-child i {
+        float: left;
+        margin-right: 0.34133rem;
+        font-size: 0.512rem;
+        color: #00a0dc;
+        line-height: 0.68267rem; }
+      .appraise-person .username ul li:last-child span {
+        margin-right: 0.34133rem;
+        float: left;
+        display: block;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        width: 2.66667rem;
+        height: 0.64rem;
+        border: 1px solid gainsboro;
+        border-radius: 0.04267rem;
+        background-color: white;
+        font-size: 0.384rem;
+        color: #93999f;
+        line-height: 0.68267rem; }
